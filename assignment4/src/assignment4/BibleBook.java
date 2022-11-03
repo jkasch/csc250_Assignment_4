@@ -21,7 +21,7 @@ public class BibleBook {
 		BibleBook book3 = new BibleBook("Mark", 16, "Focus on the miracles and conflicts during the life and death of Jesus Christ.");	
 
 		book1.display();
-		System.out.print(false);
+		System.out.print(book1); 
 		
 		//System.out.print("Book name: " + book1.book + "(" + book1.chapters + ") - " + book1.summary +);
 	}
